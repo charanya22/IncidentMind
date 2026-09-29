@@ -1,0 +1,38 @@
+[
+  {
+    "content": "Historical validated incident INC-1001: payment-service database timeout.\nRoot cause was database connection pool exhaustion after a deployment configuration change.\nEngineer learning: when payment-service shows database timeouts after deployment, check deployment configuration\nand connection pool settings before blaming database infrastructure.",
+    "context": "historical validated incident memory"
+  },
+  {
+    "content": "Historical validated incident INC-1010: payment-service database timeout.\nThe deployment reduced max_connections from 50 to 10. Logs showed connection pool exhaustion and metrics\nshowed database connection utilization at 100%. Future investigations should correlate deployment, code change,\nlogs, and metrics before assigning root cause.",
+    "context": "historical validated incident memory"
+  },
+  {
+    "content": "Historical validated incident INC-1003: order-service high latency.\nRoot cause was an undersized cache configuration causing eviction spikes and a low cache hit ratio.\nCheck cache configuration changes when this pattern repeats.",
+    "context": "historical validated incident memory"
+  },
+  {
+    "content": "Historical validated incident INC-1001: payment-service database timeout.\nRoot cause was database connection pool exhaustion after a deployment configuration change.\nEngineer learning: when payment-service shows database timeouts after deployment, check deployment configuration\nand connection pool settings before blaming database infrastructure.",
+    "context": "historical validated incident memory"
+  },
+  {
+    "content": "Historical validated incident INC-1010: payment-service database timeout.\nThe deployment reduced max_connections from 50 to 10. Logs showed connection pool exhaustion and metrics\nshowed database connection utilization at 100%. Future investigations should correlate deployment, code change,\nlogs, and metrics before assigning root cause.",
+    "context": "historical validated incident memory"
+  },
+  {
+    "content": "Historical validated incident INC-1003: order-service high latency.\nRoot cause was an undersized cache configuration causing eviction spikes and a low cache hit ratio.\nCheck cache configuration changes when this pattern repeats.",
+    "context": "historical validated incident memory"
+  },
+  {
+    "content": "Historical validated incident INC-1001: payment-service database timeout.\nRoot cause was database connection pool exhaustion after a deployment configuration change.\nEngineer learning: when payment-service shows database timeouts after deployment, check deployment configuration\nand connection pool settings before blaming database infrastructure.",
+    "context": "historical validated incident memory"
+  },
+  {
+    "content": "Historical validated incident INC-1010: payment-service database timeout.\nThe deployment reduced max_connections from 50 to 10. Logs showed connection pool exhaustion and metrics\nshowed database connection utilization at 100%. Future investigations should correlate deployment, code change,\nlogs, and metrics before assigning root cause.",
+    "context": "historical validated incident memory"
+  },
+  {
+    "content": "Historical validated incident INC-1003: order-service high latency.\nRoot cause was an undersized cache configuration causing eviction spikes and a low cache hit ratio.\nCheck cache configuration changes when this pattern repeats.",
+    "context": "historical validated incident memory"
+  }
+]

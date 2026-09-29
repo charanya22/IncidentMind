@@ -1,0 +1,4 @@
+service: payment-service
+database:
+  max_connections: 10
+  timeout_seconds: 5

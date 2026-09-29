@@ -1,0 +1,5 @@
+commit 8fa31d
+payment-service: tune database pool
+
+- max_connections: 50 -> 10
+- reason: reduce idle DB connections
